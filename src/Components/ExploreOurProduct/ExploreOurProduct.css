@@ -1,0 +1,138 @@
+/** Lower Part **/
+.lower-part {
+    color: var(--text-color);
+    margin-top: 300px;
+}
+
+.low-part h3 {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/** Radio button **/
+/**Explore Product** and Navigation bar**/
+
+.slider{
+    position: relative;
+    width: 75.5%;
+    overflow: hidden;
+    margin-left: 1%;
+    margin-bottom: 50px;
+    
+}
+.slides{
+    display:flex;
+    width: fit-content;
+    margin-left: 30%;
+    margin-bottom: 70px;
+    border: 1px solid var(--text-color);
+}
+.slides img{
+    /* height: 250px; */
+    width: 100%;
+    transition: all 0.15s ease;
+    
+}
+
+.slides input{
+    display: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-left: 33%;
+}
+.navigation label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid var(--text-color) 2px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+    margin-top: -7%;
+}
+.navigation label:hover{
+    background: var(--text-color);
+}
+#r1:checked ~ .m1{
+    margin-left: 0;
+}
+#r2:checked ~ .m2{
+    margin-left: -100%;
+}
+#r3:checked ~ .m3{
+    margin-left: -200%;
+}
+#r4:checked ~ .m4{
+    margin-left: -300%;
+}
+#r5:checked ~ .m5{
+    margin-left: -400%;
+}
+
+@media(max-width: 1100px){
+
+    .slider{
+        width: 115.5%;
+        position: relative;
+        overflow: hidden;
+        margin-left: -25%;
+        margin-bottom: 50px;
+    }
+
+}
+@media(max-width:1060px){
+
+    .slider{
+        width: 115.5%;
+        position: relative;
+        overflow: hidden;
+        margin-left: -25%;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 950px){
+
+    .slider{
+        width: 115.5%;
+        position: relative;
+        overflow: hidden;
+        margin-left: -25%;
+        margin-bottom: 50px;
+    }   
+}
+
+@media (max-width: 760px){
+
+    .slider{
+        width: 122.5%;
+        margin-left: -31%;
+    }
+
+
+}
+
+
+
+
+
+@media(max-width: 450px){
+    .slider{
+        width: 131.5%;
+        position: relative;
+        overflow: hidden;
+        margin-left: -35%;
+        margin-bottom: 50px;
+    }
+
+}

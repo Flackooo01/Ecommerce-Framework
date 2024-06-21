@@ -1,0 +1,158 @@
+/** Footer V2 **/
+footer{
+    background: #111;
+    color: var(--bg-color);
+    height: auto;
+}
+footer h1{
+    font-size: 1.5rem;
+}
+footer h2{
+    font-size: 1.5rem;
+}
+footer .footer-content{
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .footer-content .footer-section{
+    flex: 1;
+    padding: 25px;
+
+}
+footer .footer-content .footer-section h1{
+    color: var(--footer-font-color);
+    margin: 0px 27px -91px 0px;
+}
+footer .footer-content .footer-section h2{
+    color: var(--footer-font-color);
+    margin: 0px 27px -68px 0px;
+}
+
+footer .footer-content .footer-section h1 span{
+    color: var(--footer-hover-color);
+}
+footer .footer-content .footer-section .contact span{
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+footer .footer-content .footer-section p{
+    font-size: 13px;
+    margin: 107px 35px 6px 0px ;
+}
+footer .footer-content .socials a{
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    color: var(--active-bg-color);
+}
+footer .footer-content .socials a:hover{
+    border: 1px solid var(--footer-font-color);
+    color: var(--footer-font-color);
+} 
+
+/** Quick Links **/
+footer .footer-content .links a i{
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 9px;
+    margin: 3px;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    color: var(--active-bg-color);
+    align-items: center;
+}
+
+footer .footer-content .links ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: gray;
+    transition: all .3s;
+}
+
+footer .footer-content .links ul li a:hover{
+    color: var(--footer-font-color);
+    margin-left: 15px;
+    transition: all .3s;
+}
+
+/** Contact Input **/
+footer form{
+    padding: 20px 0px 6px 2px;
+    margin: 63px 0px -22px 0px;
+}
+footer .footer-content .contact-form .contact-input{
+    background-color: var(--footer-border-bg-color);
+    color: var(--footer-font-color);
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    border: none;
+    padding: .9rem 1rem;
+}
+footer .footer-content .contact-form .contact-input:focus{
+    background: var(--footer-focus-color);
+    
+}
+.footer-section .contact-us .text-input{
+    width: 100%;
+    height: 31px;
+    border-radius: 10px;
+}
+.footer-section .contact-us .message-text{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+}
+
+
+/** Send Button **/
+.footer-section .send-button i{
+    padding: 3px 7px;
+}
+.footer-section .send-button .btn{
+    padding: .5rem 1rem;
+    background: #006669;
+    color: var(--footer-font-color);
+    border-radius: .25rem;
+    margin-top: -10px;
+    width: 100%;
+    margin-bottom: -17px;
+}
+.footer-section .send-button .btn:hover{
+    color: var(--footer-font-color) !important;
+    background: #005255;
+}
+.btn-big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+} 
+
+
+footer .footer-bottom{
+    background: #000;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+
+    height: 26px;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    color: #656363;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: 500;
+} 

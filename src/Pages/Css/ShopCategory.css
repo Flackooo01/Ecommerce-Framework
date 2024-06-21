@@ -1,0 +1,68 @@
+
+
+
+
+/** Features */
+.section-p1{
+    padding: 10px 8px;
+}
+
+/* .features-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+#product1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.pro-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* This will space out the items evenly */
+    gap: 10px; /* Adds space between items */
+}
+
+/** pagination */
+#pagination{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: var(--color-text-feature);
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: var(--footer-font-color);
+    font-weight: 600;
+}
+#pagination a, i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+@media (max-width: 760px){
+    #product1 .pro{
+        min-width: 178px;
+    }
+
+}
+
+
+@media(max-width: 540px){
+    #product1 .pro{
+        margin: 15px;
+        min-width: 150px;
+        min-width: 168px;
+        margin: 3px 0;
+    }
+}
+
+
+
+

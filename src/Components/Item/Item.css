@@ -1,0 +1,316 @@
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border: 1px solid var(--border-feature);
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: var(--color-text-feature);
+    background-color: var(--bg-color-feature);
+}
+#feature .fe-box:nth-child(2) h6{
+    background-color: var(--bg-color-feature2);
+}
+#feature .fe-box:nth-child(3) h6{
+    background-color: var(--bg-color-feature3);
+}
+#feature .fe-box:nth-child(4) h6{
+    background-color: var(--bg-color-feature4);
+}
+#feature .fe-box:nth-child(5) h6{
+    background-color: var(--bg-color-feature5);
+}
+#feature .fe-box:nth-child(6) h6{
+    background-color: var(--bg-color-feature6);
+}
+
+@media(max-width: 950px){
+    #nav{
+        padding: 0 10px;
+    }
+    .navbar .nav-links .logo-text{
+        position: absolute;
+        left: 80px;
+        font-size: 18px;
+    }
+    .humburger{
+        display: block;
+        cursor: pointer;
+    }
+    .humburger .line{
+        width: 30px;
+        height: 3px;
+        background: var(--humburger-color);
+        margin: 6px 0;
+    }
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background: var(--bg-color);
+        transition: 0.5s;
+        overflow: hidden;
+
+    }
+    .nav-bar ul{
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+        text-align: left;
+    }
+    .nav-bar ul li a{
+        margin-bottom: 12px;
+    }
+    .nav-bar.active{
+        height: 600px;
+        display: block;
+        z-index: 2;
+    }
+    .first-nav-nav.active{
+        height: 130px;
+        display: block;
+    }
+    .sec-nav-nav.active{
+        display: block;
+        height: 280px;
+        /* overflow: scroll; */
+    }
+    /* .nav-bar.active ul{
+        opacity: 1;
+    } */
+    .nav-bar ul li{
+        width: 100%;
+    }
+    .nav-bar .nav li ul{
+        position: static;
+        width: 100%;
+    }
+    nav ul li:hover ul{
+        display: none;
+        height: 600px;
+    }
+    .nav-bar ul li ul li a{
+        text-align: left;
+        padding: 10px;
+        background: var(--bg-color);
+        color: var(--text-color);
+        padding-left: 50px;
+    }
+    .nav-bar .nav .sec-nav-nav li a{
+        padding: 10px;
+        background: var(--bg-color);
+        color: var(--text-color);
+        padding-left: 50px;
+    }
+    .nav-bar ul li ul li a.logout{
+        color: red;
+    }
+    .nav-bar .logo{
+        margin-left: .8em;
+    }
+    .nav-bar #link{
+        display: block;
+    }
+    .nav-bar #sec-link{
+        display: block;
+    }
+    nav .sec-font-logo{
+        display: block;
+    }
+    nav .search-box{
+        width: 300px;
+        position: relative;
+        top: 20px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .text-box h1{
+        margin-top: -2px;
+    }
+
+}
+
+
+@media (max-width: 760px){
+    #feature .fe-box{
+        width: 150px;
+        margin: 0px 0;
+    }
+    .slider{
+        width: 122.5%;
+        margin-left: -31%;
+    }
+    .form-pop{
+        width: 95%;
+    }
+    .form-box .form-details{
+        display: none;
+    }
+    .form-box .form-content{
+        padding: 30px 20px;
+    }
+    .text-box h1{
+        font-size: 29px;
+    }
+    .navigation label{
+        margin-top: -49px;
+    }
+    .categories .col-3 {
+        flex-basis: 10%; /* Adjust width for small screens */
+        min-width: 141px;
+    }
+    #product1 .pro{
+        min-width: 163px;
+        margin: 3px 0;
+    }
+
+}
+
+
+@media(max-width: 540px){
+    .text-box h1{
+        font-size: 26px;
+    }
+    .low-part h3{
+        font-size: 23px;
+    }
+    .featured-text h1{
+        font-size: 23px;
+    }
+    .categories .col-3 {
+        flex-basis: 10%; /* Adjust width for small screens */
+        min-width: 136px;
+    }
+    #feature .fe-box{
+        width: 140px;
+        margin: 0px 0;
+    }
+    #product1 .pro{
+        margin: 15px;
+        min-width: 150px;
+        min-width: 158px;
+        margin: 3px 0;
+    }
+}
+
+@media(max-width: 525px){
+    #feature .fe-box{
+        width: 124px;
+        margin: 0px 0;
+    }
+    #feature .fe-box h6{
+        font-size: 12px;
+    }
+    #product1 .pro{
+        min-width: 133px;
+        margin: 3px 0;
+    }
+    #product1 .pro .cart{
+        width: 23px;
+        height: 24px;
+        line-height: 23px;
+        font-size: 10px;
+    }
+    #product1 .pro .des h5{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 450px){
+    #nav{
+        padding: 0px 5px;
+    }
+    .navbar .nav-links .logo-text{
+        position: absolute;
+        left: 70px;
+        font-size: 18px;
+    }
+    .text-box h1{
+        font-size: 22px;
+    }
+    nav .search-box{
+        width: 300px;
+        position: relative;
+        top: 20px;
+        margin-bottom: 10px;
+        display: block;
+        left: 42%;
+    }
+    .slider{
+        width: 131.5%;
+        position: relative;
+        overflow: hidden;
+        margin-left: -35%;
+        margin-bottom: 50px;
+    }
+    .navigation label{
+        margin-top: -49px;
+    }
+    .low-part h3{
+        font-size: 21px;
+    }
+    .featured-text h1{
+        font-size: 21px;
+    }
+    footer{
+        height: auto;
+    }
+    footer .footer-content{
+        height: auto;
+        flex-direction: column;
+    }
+    .categories .col-3 {
+        flex-basis: 10%; /* Adjust width for small screens */
+        min-width: 113px;
+    }
+    #feature .fe-box{
+        width: 123px;
+        margin: -3px 0;
+    }
+    #feature .fe-box h6{
+        font-size: 10px;
+    }
+    #product1 .pro{
+        margin: 0px;
+        min-width: 47%;
+        height: 100%;
+    }
+    #product1 .pro .des span{
+        font-size: 10px;
+    }
+    #product1 .pro .des h5{
+        font-size: 10px;
+    }
+    #product1 .star {
+        font-size: 10px;
+    }
+    #product1 .pro .des h4{
+        font-size: 15px;
+    }
+    #product1 .pro .cart{
+        width: 19px;
+        height: 21px;
+        line-height: 20px;
+        font-size: 10px;
+        bottom: 24px;
+    }
+}
