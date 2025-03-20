@@ -4,7 +4,6 @@ import b3 from '../Background/Backgroud3.jpg';
 import b4 from '../Background/Backgroud4.jpg';
 
 
-
 const images = [
     {
         imgURL: b1,

@@ -31,7 +31,7 @@ const ShopContextProvider = (props) =>{
     //Getting the total value of the product added
     const getTotalCartAmount = () => {
         let totalAmount = 0;
-    
+
         for (const itemProduct in cartItems) {
             if (cartItems[itemProduct] > 0) {
                 let itemInfo = all_product.find((product) => product.id === Number(itemProduct));
